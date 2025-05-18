@@ -1,0 +1,27 @@
+*{
+    color: #DDFEF8;
+}
+body{
+    background-color: #132541;
+}
+h1{
+    text-align: center;
+}
+#form{
+    width: 40%;
+    margin: auto;
+    background-color: #E87A64;
+}
+input[type=text],input[type=email],input[type=password]{
+    width: 97%;
+    height: 30px;
+    outline: none;
+    border: solid;
+}
+.textArea{
+    border-radius: 5px;
+
+}
+.loginButton{
+    width: 300px;
+}
