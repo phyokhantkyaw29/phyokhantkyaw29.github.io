@@ -1,0 +1,10 @@
+p:target{
+    color: blue;
+    border: 1px solid black;
+    line-height: 40px;
+    word-spacing: 5px;
+}
+
+span:target{
+    color: blueviolet;
+}
