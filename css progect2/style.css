@@ -2,7 +2,6 @@
 
 body {
     background-color: var(--bgColor);
-    height: 400vh;
 }
 
 * {
@@ -106,7 +105,7 @@ nav div i {
     width: 90%;
     margin: 20px;
     border: 5px solid var(--navColor);
-    
+
 }
 
 .homeVideo {
@@ -134,7 +133,7 @@ nav div i {
     height: 390px;
     margin: 15px;
     text-align: center;
-    box-shadow: 1px 3px 5px rgb(194, 187, 187),-1px 3px 5px rgb(194, 187, 187),1px -3px 5px rgb(194, 187, 187);
+    box-shadow: 1px 3px 5px rgb(194, 187, 187), -1px 3px 5px rgb(194, 187, 187), 1px -3px 5px rgb(194, 187, 187);
     border-radius: 10px;
     cursor: pointer;
     transition: 0.9s;
@@ -156,7 +155,8 @@ nav div i {
     position: relative;
     cursor: pointer;
 }
- .showTitle::after {
+
+.showTitle::after {
     content: "";
     background-color: blue;
     width: 0%;
@@ -165,19 +165,72 @@ nav div i {
     bottom: -5px;
     left: 0px;
     transition: 0.8s;
- } 
+}
 
- .showTitle:hover::after {
+.showTitle:hover::after {
     width: 100%;
- }
-
-
-
-
+}
 
 /* shows end */
+/* about start */
+.aboutImg img {
+    width: 400px;
+}
+
+.aboutText p {
+    color: white;
+    font-size: 20px;
+}
+
+.aboutText {
+    margin-left: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.aboutContainer {
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    box-shadow: 1px 3px 5px blue;
+}
+
+/* about end */
+
+/* footer start */
+footer {
+    margin: 50px 0px;
+}
+footer p, footer h4 {
+    color: white;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+footer p:hover{
+    text-shadow: 2px 5px 10px black;
+}
+
+
+/* footer end */
+
+
 
 /* media quaries */
+
+@media screen and (max-width:1137px) {
+    .aboutImg img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .aboutText p {
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width:900px) {
     .logo img {
         width: 100px;
@@ -204,7 +257,13 @@ nav div i {
 
     .homeVideo div video {
         width: 90%;
-        
+
+    }
+
+    .aboutContainer {
+        display: block;
+        margin: 50px 0px;
+        text-align: center;
     }
 
 }
