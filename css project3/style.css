@@ -232,7 +232,7 @@ body {
 }
 
 @media screen and (max-width:675px) {
-    
+
 
     .navText div a {
         margin: 0px 10px;
@@ -244,7 +244,7 @@ body {
     }
 
     .aboutImg img {
-        width: 150px;
+        width: 500px;
     }
 
     .aboutText {
@@ -255,12 +255,14 @@ body {
     .aboutContainer {
         margin: auto;
         margin-bottom: 60px;
+        flex-wrap: wrap;
+        width: 85%;
     }
 }
 
 @media screen and (max-width:500px) {
     .aboutContainer {
-        flex-wrap: wrap;
+        
         width: 85%;
         margin: 60px 30px 60px 10px;
         justify-content: center;
@@ -275,31 +277,27 @@ body {
     }
 
     .contactContainer {
-        
+
         width: 75%;
-       
-    }
-    .navText div a {
-        margin: 0px 8px;
-    }
 
-   
-
-    .navLogo img {
-        width: 40px;
-        margin-left: 3px;
     }
     .aboutImg img {
-        width: 130px;
+        width: 400px;
     }
 
-    .aboutText {
 
-        line-height: 1.5;
+}
+
+@media screen and (max-width:400px) {
+    .aboutImg img {
+        width: 380px;
     }
 
-    .aboutContainer {
-        width: 85%;
+    .navText div a {
+        margin: 0px 8px;
+        font-size: 15px;
     }
-
+    .navLogo img {
+        width: 30px;
+    }
 }
