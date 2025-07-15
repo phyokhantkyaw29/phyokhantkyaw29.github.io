@@ -232,9 +232,7 @@ body {
 }
 
 @media screen and (max-width:675px) {
-    .navText div a {
-        margin: 0px 15px;
-    }
+    
 
     .navText div a {
         margin: 0px 10px;
@@ -280,6 +278,28 @@ body {
         
         width: 75%;
        
+    }
+    .navText div a {
+        margin: 0px 8px;
+    }
+
+   
+
+    .navLogo img {
+        width: 40px;
+        margin-left: 3px;
+    }
+    .aboutImg img {
+        width: 130px;
+    }
+
+    .aboutText {
+
+        line-height: 1.5;
+    }
+
+    .aboutContainer {
+        width: 85%;
     }
 
 }
