@@ -290,12 +290,12 @@ body {
 
 @media screen and (max-width:400px) {
     .aboutImg img {
-        width: 380px;
+        width: 450px;
     }
 
     .navText div a {
         margin: 0px 8px;
-        font-size: 15px;
+        font-size: 10px;
     }
     .navLogo img {
         width: 30px;
